@@ -14,10 +14,9 @@ const SearchBar = function (props) {
 
   return (
     <div className='search-bar'>
-      <form action=''>
-        <input type='text' onChange={handleChange} />
-        <button onClick={handleClick}>Search Movies</button>
-      </form>
+      <h1>Search your favourite Movies</h1>
+      <input type='text' onChange={handleChange} />
+      <button onClick={handleClick}>Search Movies</button>
     </div>
   );
 };

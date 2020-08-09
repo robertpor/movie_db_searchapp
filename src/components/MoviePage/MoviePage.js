@@ -31,6 +31,9 @@ function MoviePage() {
       <h1>{movie.title}</h1>
       <Picture url={movie.backdrop_path} />
       <p>{movie.overview}</p>
+      <p>Popularity: {movie.popularity}</p>
+      <p>Original Language: {movie.original_language}</p>
+      <p>Release Date: {movie.release_date}</p>
     </div>
   );
 }
