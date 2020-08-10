@@ -93,3 +93,28 @@ button:hover {
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 950px) {
+  .movie-page {
+    text-align: left;
+    margin: 20px 5px 0 5px;
+    color: white;
+  }
+}
+
+@media (max-width: 550px) {
+  .movie-page {
+    text-align: center;
+    margin: 20px 0 0 0;
+    color: white;
+  }
+  .movie-description {
+    width: 95vw;
+    font-size: 1.3rem;
+    margin: auto;
+  }
+
+  .movie-page > img {
+    width: 300px;
+  }
+}
